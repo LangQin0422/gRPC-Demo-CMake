@@ -16,6 +16,8 @@ The project is divided into three sub-projects/modules:
 
 3. `client` - Contains the client implementation.
 
+4. `tests` - Contains driver to use the client and test the functionality.
+
 ## Build and Run
 
 ### Pre-Requisites
@@ -68,11 +70,9 @@ One may notice the recommended way to install gRPC by the official documentation
     ./server/server
     ```
 
-2. Run the client.
+2. Test gRPC with client and server.
 
     ```bash
     cd build
-    ./client/client
+    ./tests/TestBasic
     ```
-
-## Containerization
