@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+service Server {
+    rpc Put (PutArgs) returns (PutReply) {}
+    rpc Get (GetArgs) returns (GetReply) {}
+}
+
+message PutArgs {
+    string Key = 1;
+    string Value = 2;
+}
+
+message PutReply {}
+
+message GetArgs {
+    string Key = 1;
+}
+
+message GetReply {
+    string Value = 1;
+}
