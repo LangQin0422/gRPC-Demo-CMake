@@ -22,7 +22,7 @@ The project is divided into three sub-projects/modules:
 
 A script is provided to install the necessary dependencies for this project, including gRPC and Protocol Buffers using latest versions. The script is tested on Ubuntu 20.04 LTS.
 
-> CAVEAT: Using the script may install the dependencies globally on the system and uninstallation will be very difficult. It is recommended to create a snapshot of the VM or container before running the script.
+> **CAVEAT**: Using the script may install the dependencies globally on the system and uninstallation will be very difficult. It is recommended to create a snapshot of the VM or container before running the script.
 
 ```bash
 [sudo] bash dependencies.sh
