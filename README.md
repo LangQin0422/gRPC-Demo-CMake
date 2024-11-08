@@ -68,11 +68,9 @@ One may notice the recommended way to install gRPC by the official documentation
     ./server/server
     ```
 
-2. Run the client.
+2. Test gRPC with client and server.
 
     ```bash
     cd build
-    ./client/client
+    ./tests/TestBasic
     ```
-
-## Containerization
