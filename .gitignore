@@ -1,3 +1,4 @@
 .vscode/*
 build/*
 compile_commands*
+.cache*
